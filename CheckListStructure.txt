@@ -1,0 +1,7 @@
+Structure of CheckList:
+ID
+Description 
+Environment 
+Actual Result 
+Status
+Comment 
