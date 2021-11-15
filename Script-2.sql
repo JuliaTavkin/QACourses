@@ -1,6 +1,4 @@
---Заполните таблицы данными. Не менее 10 строк в каждой таблице
-
---Заполнение "salary"
+-- Р—Р°РїРѕР»РЅРёС‚Рµ С‚Р°Р±Р»РёС†С‹ РґР°РЅРЅС‹РјРё. РќРµ РјРµРЅРµРµ 10 СЃС‚СЂРѕРє РІ РєР°Р¶РґРѕР№ С‚Р°Р±Р»РёС†Рµ
 
 insert into salary values 
 (default, 100),
@@ -16,8 +14,6 @@ insert into salary values
 
 -- select * from salary
 
---Заполнение "roles"
-
 insert into roles values 
 (default, 'HR'),
 (default, 'Sales Manager'),
@@ -31,8 +27,6 @@ insert into roles values
 (default, 'UI/UX Designer')
 
 -- select  * from roles
-
---Заполнение "roles_salary"
 
 insert into roles_salary values 
 (default, 1, 7),
@@ -48,8 +42,6 @@ insert into roles_salary values
 
 -- select * from roles_salary
 
---Заполнение "employees"
-
 insert into employees values 
 (default, 'Ivan Ivanov'),
 (default, 'Petr Petrov'),
@@ -63,8 +55,6 @@ insert into employees values
 (default, 'Anna Agievich')
 
 -- select * from employees
-
---Заполнение "employees_roles
 
 insert into employees_roles values 
 (default, 2, 3),
